@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+    <h1>
+        Vídeos hospedados localmente
+    </h1>
+    <p>
+        Este vídeo esta hospedado no meu próprio servidor.
+    </p>
+    <h2>
+        Método simples.
+    </h2>
+    <video src="media/video-limao.mp4" width="1000" height="600" controls></video>
+    <h2>
+        Método recomendado.
+    </h2>
+    <video width="1000" height="600" autoplay loop controls>
+        <source src="media/video-limao.mp4" type="video/mp4">
+        <source src="media/meu-video.m4v" type="video/m4v">
+        <source src="media/meu-video.ogv" type="video/ogv">
+        <source src="media/meu-video.webm" type="video/webm">
+    </video>
+    <h2>
+        Vídeos de plantaformas de terceiros.
+    </h2>
+    <p>
+        Você pode incorporar vídeos de terceiros. Youtube por exemplo.
+    </p>
+    <iframe width="1000" height="600    " src="https://www.youtube.com/embed/eh9iki_lz0U?si=TTxE__YAFncTuGWS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</body>
+</html>
