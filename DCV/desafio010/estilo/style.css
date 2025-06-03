@@ -158,8 +158,9 @@ aside > div > ul{
     -webkit-columns: 2;
     -moz-columns: 2;
     list-style: '✓ ';
-    padding-left: 2em;
+    padding-left: 2%;
     margin: 1% 8%;
+    width: 100%;
 }
 aside > div > ul > li{padding-left: 3%;}
 aside > div > ul > li > abbr{text-decoration: none;}
@@ -172,6 +173,7 @@ aside > div > ul > li > abbr{text-decoration: none;}
 /* footer */
 footer{
     background-color: var(--cor3);
+    color: yellow;
     margin-top: 2%;
     padding-top: 1%;
     text-align: center;
