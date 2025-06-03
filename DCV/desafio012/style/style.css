@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+/*body*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+/*/body*/
+/*header*/
+header{
+    background-color: black;
+
+}
+/*/header*/
+/*main*/
+/*/main*/
+/*footer*/
+/*/footer*/
