@@ -1,11 +1,16 @@
 @charset "UTF-8";
-
+/*variáveis*/
+:root{
+    --fonteglobal:
+}
+/*/variáveis*/
 /*body*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+p{font-family: var(--fonteglobal);}
 a{
     color: white;
     text-decoration: none;
@@ -13,11 +18,49 @@ a{
 /*/body*/
 /*header*/
 header{
+    height: 13vh;
     background-color: black;
-
+}
+header > h1{
+    padding-top: 3%;
+    text-align: center;
+    color: white;
+}
+header > p{
+    padding-top: 1.6%;
+    text-align: center;
 }
 /*/header*/
 /*main*/
+.paragrafos{margin: 7% 0;}
+#par2{
+    padding: 15%;
+    background: url(../images/joaninha.jpg) center center fixed no-repeat;
+    background-size: cover;
+}
+#par2 > p{
+    width: 40%;
+    background-color: rgba(0, 0, 0, 0.507);
+    color: white;
+}
+#par4{
+    padding: 15%;
+    background: url(../images/folhas.jpg) center center fixed no-repeat;
+    background-size: cover;
+}
+#par4 > p{
+    width: 40%;
+    background-color: rgba(0, 0, 0, 0.507);
+    color: white;
+}
 /*/main*/
 /*footer*/
+footer{
+    padding: 2% 0;
+    background-color: black;
+    text-align: center;
+}
+footer > p{
+    color: white;
+}
 /*/footer*/
