@@ -1,11 +1,11 @@
 @charset "UTF-8";
 @font-face{
     font-family: 'text';
-    src: url(../font/Ephesis-Regular.ttf);
+    src: url(font/Ephesis-Regular.ttf);
 }
 @font-face{
     font-family: 'title';
-    src: url(../font/Kavoon-Regular.ttf);
+    src: url(font/Kavoon-Regular.ttf);
 }
 /*variáveis*/
 :root{
@@ -92,7 +92,7 @@ main{
 }
 #par2{
     padding-left: 23%;
-    background: url(../images/joaninha.jpg) center center fixed no-repeat;
+    background: url(images/joaninha.jpg) center center fixed no-repeat;
     background-size: cover;
 }
 #par2 > p{
@@ -103,7 +103,7 @@ main{
 }
 #par4{
     padding-left: 23%;
-    background: url(../images/folhas.jpg) center center fixed no-repeat;
+    background: url(images/folhas.jpg) center center fixed no-repeat;
     background-size: cover;
 }
 #par4 > p{
