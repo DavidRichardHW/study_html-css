@@ -78,9 +78,10 @@ main{
 }
 .parasolo{
     padding-left: 5%;
-    height: 55vh;
     display: flex;
     align-items: center;
+    height: 55vh;
+    min-height: 350px;
     text-shadow: var(--coruni) 0.5px 0.5px 1px;
 }
 .paraduplo{
@@ -88,6 +89,7 @@ main{
     display: flex;
     align-items: center;
     height: 85vh;
+    min-height: 650px;
     text-shadow: var(--coruni) 0.5px 0.5px 1px;
 }
 #par2{
