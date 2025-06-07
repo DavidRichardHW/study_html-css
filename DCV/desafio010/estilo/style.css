@@ -25,7 +25,6 @@
 /* body */
 
 body{
-    min-width: 434px;
     font-family: var(--fonteglobal);
     background-color: var(--cor1);
 }
@@ -44,6 +43,8 @@ strong{color: var(--cor3)}
 /* /body */
 /* header */
 header{
+    width: 100%;
+    min-width: 485px;
     padding-top: 1px;
     background-image: linear-gradient(to bottom, var(--cor2), var(--cor4));
     
@@ -52,7 +53,7 @@ header > h1{
     text-align: center;
     margin: 35px auto 15px;
     max-width: 900px;
-    min-width: 434px;
+    min-width: 485px;
     text-shadow: 2px 2px 0px black;
 }
 header > h1 > a{
@@ -96,11 +97,13 @@ header > p{
 /* /header */
 /* main */
 main{
+    width: 100%;
+    min-width: 485px;
+    max-width: 900px;
     background-color: white;
     margin: 0 auto;
     border-radius: 2%;
-    min-width: 434px;
-    max-width: 900px;
+    
 }
 /* prin */
 #prin > section > h1{
@@ -123,18 +126,20 @@ main{
 picture{
     display: flex;
     justify-content: center;
-    max-width: 100%;
+    min-width: 485px;
+    max-width: 900px;
 }
 img{
     display: block;
-    margin: 0 auto;
+    margin: auto auto;
 }
 div{background-color: var(--cor4);}
 iframe{
     display: block;
     padding: 1% 0%;
-    margin: 0 auto;
-    max-width: 100%;
+    margin: auto auto;
+    min-width: 485px;
+    max-width: 900px;
 }
 /* /prin */
 /* sec */
@@ -160,7 +165,7 @@ aside > div > ul{
     list-style: '✓ ';
     padding-left: 2%;
     margin: 1% 8%;
-    width: 100%;
+    max-width: 100%;
 }
 aside > div > ul > li{padding-left: 3%;}
 aside > div > ul > li > abbr{text-decoration: none;}
@@ -174,7 +179,7 @@ aside > div > ul > li > abbr{text-decoration: none;}
 footer{
     background-color: var(--cor3);
     color: yellow;
-    margin-top: 2%;
+    margin-top: 1%;
     padding-top: 1%;
     text-align: center;
 }
