@@ -177,11 +177,15 @@ aside > div > ul > li > abbr{text-decoration: none;}
 /* /main */
 /* footer */
 footer{
+    width: 100vw;
     background-color: var(--cor3);
     color: yellow;
     margin-top: 1%;
     padding-top: 1%;
     text-align: center;
 }
-footer > p{padding-bottom: 1%;}
+footer > p{
+    max-width: 900px;
+    padding-bottom: 1%;
+}
 /* /footer */
