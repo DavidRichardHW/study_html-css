@@ -44,7 +44,7 @@ strong{color: var(--cor3)}
 /* header */
 header{
     width: 100%;
-    min-width: 485px;
+    min-width: 435px;
     padding-top: 1px;
     background-image: linear-gradient(to bottom, var(--cor2), var(--cor4));
     
@@ -53,7 +53,7 @@ header > h1{
     text-align: center;
     margin: 35px auto 15px;
     max-width: 900px;
-    min-width: 485px;
+    min-width: 435px;
     text-shadow: 2px 2px 0px black;
 }
 header > h1 > a{
@@ -75,7 +75,7 @@ header > p{
 /* menu */
 #menu{
     background-color: var(--cor3);
-    min-width: 434px;
+    min-width: 435px;
 }
 #menu > ul{
     display: flex;
@@ -83,7 +83,7 @@ header > p{
     gap: 10px;
     color: white;
     max-width: 900px;
-    min-width: 434px;
+    min-width: 435px;
 }
 #menu > ul > li{
     padding: 1%;
@@ -98,7 +98,7 @@ header > p{
 /* main */
 main{
     width: 100%;
-    min-width: 485px;
+    min-width: 435px;
     max-width: 900px;
     background-color: white;
     margin: 0 auto;
@@ -126,7 +126,7 @@ main{
 picture{
     display: flex;
     justify-content: center;
-    min-width: 485px;
+    min-width: 435px;
     max-width: 900px;
 }
 img{
@@ -138,7 +138,7 @@ iframe{
     display: block;
     padding: 1% 0%;
     margin: auto auto;
-    min-width: 485px;
+    min-width: 435px;
     max-width: 900px;
 }
 /* /prin */
@@ -178,6 +178,7 @@ aside > div > ul > li > abbr{text-decoration: none;}
 /* footer */
 footer{
     width: 100vw;
+    min-width: 435px;
     background-color: var(--cor3);
     color: yellow;
     margin-top: 1%;
@@ -186,6 +187,7 @@ footer{
 }
 footer > p{
     max-width: 900px;
+    margin: auto auto;
     padding-bottom: 1%;
 }
 /* /footer */
