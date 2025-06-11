@@ -1,6 +1,9 @@
 # Study
-Pasta de Estudos HTML/CSS
 
-Fontes de Estudos:
-• Curso em Vídeo - Gustavo Guanabara.
-• ChatGPT - Estudo independente.
+- Pasta de Estudos em HTML/CSS
+
+## Fontes de Estudos
+
+- Curso em Vídeo - Gustavo Guanabara.
+
+- ChatGPT - Estudo independente.
