@@ -1,0 +1,3 @@
+<iframe id="tela" name="tela" src="pages/home.html" frameborder="0"></iframe>
+
+<img id="cell" src="images/frame-iphone.png" alt="Celular">
