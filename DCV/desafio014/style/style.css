@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+/*body*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    min-width: 450px;
+    background-image: url(../images/fundo-madeira.jpg);
+    position: relative;
+}
+/*celular*/
+#princ{
+    height: 734px;
+    width: 365px;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+#second{
+    position: relative;
+}
+#cell{
+    height: 738px;
+    width: 362px;
+    position: absolute;
+    top: 49.4%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#tela{
+    height: 560px;
+    width: 315px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/*/celular*/
+/*aplicativos*/
+#redes{
+    top: 50%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+.logos{
+    width: 80px;
+    border-radius: 50%;
+    text-align: right;
+}
+/*/aplicativos*/
+/*/body*/
