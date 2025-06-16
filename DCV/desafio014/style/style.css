@@ -11,6 +11,7 @@ body{
     width: 100vw;
     max-height: 100vh;
     min-width: 450px;
+    min-height: 600px;
     background-image: url(../images/fundo-madeira.jpg);
     position: relative;
 }
@@ -23,9 +24,18 @@ body{
     left: 40%;
     transform: translate(-50%, -50%);
 }
-#second{
-    position: relative;
+#power{
+    position: absolute;
+    top: 93%;
+    left: 50%;
+    height: 40px;
+    width: 40px;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    cursor: pointer;
 }
+#power:active{z-index: 0;}
+#power:active + #secon #cell{z-index: 1;}
 #cell{
     height: 738px;
     width: 362px;
@@ -33,6 +43,8 @@ body{
     top: 49.4%;
     left: 50%;
     transform: translate(-50%, -50%);
+    z-index: 0;
+    transition: z-index 0.3s ease;
 }
 #terc{
     height: 560px;
@@ -41,6 +53,7 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    z-index: 0;
 }
 #tela{
     height: 100%;
