@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;  
+}
+div{
+    background-color: darkred;
+    border-radius: 2%;
+    height: 13vh;
+    position: relative;
+}
+div:hover{background-color: red;}
+a{text-decoration: none;}
+p{
+    color: white;
+    font-size: xx-large;  
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

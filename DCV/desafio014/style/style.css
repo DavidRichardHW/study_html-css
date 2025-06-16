@@ -62,6 +62,7 @@ body{
 /*/celular*/
 /*aplicativos*/
 #redes{
+    gap: 10px;
     top: 50%;
     left: 90%;
     transform: translate(-50%, -50%);
@@ -73,6 +74,11 @@ body{
     width: 80px;
     border-radius: 30%;
     text-align: right;
+}
+.logos:hover{
+    width: 85px;
+    border-radius: 50%;
+    box-shadow: black 0px 0px 50px;
 }
 /*/aplicativos*/
 /*/body*/
