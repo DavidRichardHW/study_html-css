@@ -9,6 +9,7 @@
 body{
     height: 100vh;
     width: 100vw;
+    max-height: 100vh;
     min-width: 450px;
     background-image: url(../images/fundo-madeira.jpg);
     position: relative;
@@ -57,7 +58,7 @@ body{
 }
 .logos{
     width: 80px;
-    border-radius: 50%;
+    border-radius: 30%;
     text-align: right;
 }
 /*/aplicativos*/
