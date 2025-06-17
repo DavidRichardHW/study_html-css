@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <h1>Formulários</h1>
+    <form action="form.php" method="get">
+        <p>
+            <label for="inome">Nome: </label>
+            <input type="text" name="nome" id="inome" required maxlength="30" placeholder="Nome Completo" autocomplete="name">
+        </p>
+        <p>
+            <label for="imed">Média: </label>
+            <input type="number" name="med" id="imed" required min="0" max="10" maxlength="1" placeholder="Média" step="0.1" autocomplete="">
+        </p>
+        <p>
+            <label for="imes">Data: </label>
+            <input type="date" name="mes" id="imes">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
