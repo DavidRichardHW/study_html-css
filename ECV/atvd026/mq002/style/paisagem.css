@@ -1,3 +1,10 @@
 @charset "UTF-8";
 
 /* Celular Mode Paisagem */
+
+body{
+    background-image: url(../../image/cev-landscape.jpg);
+    background-position: left bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
