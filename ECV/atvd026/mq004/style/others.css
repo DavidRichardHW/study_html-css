@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+/* Others */
+
+/* Tablete */
+@media screen and (min-width: 768px) {
+    body{
+        background-image: url(../../image/back-tablet.jpg);
+    }    
+}
+
+/* Desktop */
+@media screen and (min-width: 992px) {
+    
+}
+
+/* Grandes Telas */
+@media screen and (min-width: 1200px) {
+    
+}
