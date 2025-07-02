@@ -2,19 +2,50 @@
 
 /* Others */
 
+/* Impressão */
+@media print {
+    .phone{display:  none;}
+    .tablet{display: none;}
+    .pc{display: none;}
+    .print{display: block;}
+    .tv{display: none;}
+}
+
 /* Tablete */
-@media screen and (min-width: 768px) {
-    body{
-        background-image: url(../../image/back-tablet.jpg);
-    }    
+@media screen and (max-aspect-ratio: 0.75/1) and (min-width: 700px) and (max-width: 1400px) and (orientation: portrait) {
+    body{background-image: url(../../image/back-tablet.jpg);}
+    .phone{display:  none;}
+    .tablet{display: block;}
+    .pc{display: none;}
+    .print{display: none;}
+    .tv{display: none;}
+}
+@media screen and (max-aspect-ratio: 0.75/1) and (orientation: landscape) {
+    html, body{height: 100vh;}
+    body{background-image: url(../../image/back-tablet.jpg);}
+    .phone{display:  none;}
+    .tablet{display: block;}
+    .pc{display: none;}
+    .print{display: none;}
+    .tv{display: none;}
 }
 
 /* Desktop */
-@media screen and (min-width: 992px) {
-    
+@media screen and (min-width: 1400px) {
+    body{background-image: url(../../image/back-pc.jpg);}
+    .phone{display:  none;}
+    .tablet{display: none;}
+    .pc{display: block;}
+    .print{display: none;}
+    .tv{display: none;}  
 }
 
 /* Grandes Telas */
-@media screen and (min-width: 1200px) {
-    
+@media screen and (min-width: 1900px) {
+    body{background-image: url(../../image/back-tv.jpg);}
+    .phone{display:  none;}
+    .tablet{display: none;}
+    .pc{display: none;}
+    .print{display: none;}
+    .tv{display: block;}
 }
