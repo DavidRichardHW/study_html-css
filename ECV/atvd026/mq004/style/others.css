@@ -12,17 +12,25 @@
 }
 
 /* Tablete */
-@media screen and (max-aspect-ratio: 0.75/1) and (min-width: 700px) and (max-width: 1400px) and (orientation: portrait) {
-    body{background-image: url(../../image/back-tablet.jpg);}
+@media screen and (min-aspect-ratio: 0.5/1) and (min-width: 700px) and (max-width: 1400px) and (orientation: portrait) {
+    body{
+        font-size: 1.7em;
+        background-image: url(../../image/back-tablet.jpg);
+    }
+    img{padding: 15vh 0px;}
     .phone{display:  none;}
     .tablet{display: block;}
     .pc{display: none;}
     .print{display: none;}
     .tv{display: none;}
 }
-@media screen and (max-aspect-ratio: 0.75/1) and (orientation: landscape) {
+@media screen and (max-aspect-ratio: 1.6/1) and (min-width: 950px) and (max-width: 1300px) and (orientation: landscape) {
     html, body{height: 100vh;}
-    body{background-image: url(../../image/back-tablet.jpg);}
+    body{
+        font-size: 2em;
+        background-image: url(../../image/back-tablet.jpg);
+    }
+    img{padding: 13vh 0px;}
     .phone{display:  none;}
     .tablet{display: block;}
     .pc{display: none;}
@@ -31,8 +39,14 @@
 }
 
 /* Desktop */
-@media screen and (min-width: 1400px) {
-    body{background-image: url(../../image/back-pc.jpg);}
+@media screen and (min-aspect-ratio: 1.35/1) and (min-width: 1300px) {
+    html, body{height: 100vh;}
+    body{
+        font-size: 2em;
+        background-size: auto;
+        background-image: url(../../image/back-pc.jpg);
+    }
+    img{padding: 12vh 0px;}
     .phone{display:  none;}
     .tablet{display: none;}
     .pc{display: block;}
@@ -42,7 +56,13 @@
 
 /* Grandes Telas */
 @media screen and (min-width: 1900px) {
-    body{background-image: url(../../image/back-tv.jpg);}
+    html, body{height: 100vh;}
+    body{
+        font-size: 3em;
+        background-size: cover;
+        background-image: url(../../image/back-tv.jpg);
+    }
+    img{padding: 20vh 0px;}
     .phone{display:  none;}
     .tablet{display: none;}
     .pc{display: none;}
