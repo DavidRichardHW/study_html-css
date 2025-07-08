@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+#menu{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+#menu > li{
+    margin: auto 8%;
+}
