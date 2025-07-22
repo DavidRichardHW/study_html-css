@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 /* body */
+
 *{
     padding: 0px;
     margin: 0px;
@@ -9,8 +10,14 @@
 html, body{
     width: 100vw;
     height: 100vh;
+    background-color: gainsboro;
 }
+
+/* /body */
+
+
 /* header */
+
 header{
     margin: 0px;
     background-color: rgb(245, 248, 47);
@@ -20,21 +27,39 @@ header{
     text-align: center;
     padding: 4% 0px;
 }
-#iconmenu{
-    position: relative;
-    left: 50%;
-    transform: translate(-50%);
-    width: 8%;
-    padding-bottom: 2%;
-}
-#iconmenu:active{
-    display: none;
-}
 #menu{
-    display: none;
+    display: flex;
     list-style: none;
     position: relative;
     text-align: center;
     left: 50%;
     transform: translate(-50%);
 }
+#menu > li{
+    width: 100%;
+    text-align: cent;
+}
+
+/* /header */
+
+
+/* main */
+
+main{
+    width: 96%;
+    margin: 1% auto;
+    background-color: whitesmoke;
+    border-radius: 2%;
+}
+main > h1{
+    font-size: 1.45em;
+    padding: 3% 0 2%;
+    text-align: center;
+}
+main > p{
+    width: 100%;
+    text-indent: 3%;
+    font-size: 0.9em;
+    padding: 3% 5%;
+}
+/* /main */
