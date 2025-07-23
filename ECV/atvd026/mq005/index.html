@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu Responsivo</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu"/>
-    <link rel="stylesheet" href="styles/mobile.css" media="all">
-    <link rel="stylesheet" href="styles/others.css" media="alt">
+    <link rel="stylesheet" href="styles/mobile.css">
+    <link rel="stylesheet" href="styles/others.css">
     
 </head>
-<body>
+<body onresize="tamanhoRed()" onload="tamanhoIni()">
     <header>
         <h1 id="title">Teste Menu</h1>
-        <i class="material-symbols-outlined">menu</i>
+        <i class="material-symbols-outlined" id="hamb" onclick="clickMenu()">menu</i>
         <ul id="menu">
             <li>Page 1</li>
             <li>Page 2</li>
@@ -22,9 +22,26 @@
     </header>
     <main>
         <h1>Testando Media Queries</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum ab dignissimos eos, quis harum nobis reiciendis nostrum ipsum sunt doloremque nihil vitae officiis enim quam adipisci cumque vero facere eaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus veritatis doloribus magnam repellat iure placeat architecto neque, illo libero incidunt eos necessitatibus labore officiis! Velit cupiditate possimus in laudantium amet. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum alias eum modi iusto nemo dolor tempora voluptatum aperiam, a, consequuntur qui nihil libero sequi sit nesciunt beatae! Beatae, explicabo vel!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum ab dignissimos eos, quis harum nobis reiciendis nostrum ipsum sunt doloremque nihil vitae officiis enim quam adipisci cumque vero facere eaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus veritatis doloribus magnam repellat iure placeat architecto neque, illo libero incidunt eos necessitatibus labore officiis! Velit cupiditate possimus in laudantium amet. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum alias eum modi iusto nemo dolor tempora voluptatum aperiam, a, consequuntur qui nihil libero sequi sit nesciunt beatae! Beatae, explicabo vel!</p>
+        <article>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum ab dignissimos eos, quis harum nobis reiciendis nostrum ipsum sunt doloremque nihil vitae officiis enim quam adipisci cumque vero facere eaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus veritatis doloribus magnam repellat iure placeat architecto neque, illo libero incidunt eos necessitatibus labore officiis! Velit cupiditate possimus in laudantium amet. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum alias eum modi iusto nemo dolor tempora voluptatum aperiam, a, consequuntur qui nihil libero sequi sit nesciunt beatae! Beatae, explicabo vel!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum ab dignissimos eos, quis harum nobis reiciendis nostrum ipsum sunt doloremque nihil vitae officiis enim quam adipisci cumque vero facere eaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus veritatis doloribus magnam repellat iure placeat architecto neque, illo libero incidunt eos necessitatibus labore officiis! Velit cupiditate possimus in laudantium amet. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum alias eum modi iusto nemo dolor tempora voluptatum aperiam, a, consequuntur qui nihil libero sequi sit nesciunt beatae! Beatae, explicabo vel!</p>
+            <br>
+        </article>
     </main>
+    <script>
+        function tamanhoIni(){
+            if (window.innerWidth >= 900) {menu.style.display = 'flex'}
+            else {menu.style.display = 'none'}
+        }
+        function tamanhoRed(){
+            if (window.innerWidth >= 900) {menu.style.display = 'flex'}
+            else {menu.style.display = 'none'}
+        }
+        function clickMenu(){
+            if (menu.style.display == 'none') {menu.style.display = 'block'}
+            else {menu.style.display = 'none'}
+        }
+    </script>
     <footer>
         <p>Site Criado por David 'HAWIZE' Richard</p>
     </footer>
