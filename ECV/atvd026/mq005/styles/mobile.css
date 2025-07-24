@@ -7,14 +7,13 @@
     box-sizing: border-box;
 }
 html, body{
-    width: 100vw;
     max-width: 100vw;
     height: 100vh;
     min-height: 100vh;
-    max-height: 100vh;
     background-color: gainsboro;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+header, main, footer{overflow: hidden;}
 /* /body */
 
 /* header */
@@ -23,7 +22,7 @@ header{
     background-color: rgb(245, 248, 47);}
 #title{
     text-align: center;
-    padding-top: 8%; 
+    padding-top: 5%; 
 }
 #hamb{
     padding: 1%;
@@ -53,7 +52,6 @@ header{
 main{
     width: 96%;
     max-width: 900px;
-    min-height: 77%;
     margin: 1% auto;
     background-color: whitesmoke;
     border-radius: 2%;
