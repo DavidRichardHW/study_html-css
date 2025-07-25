@@ -51,6 +51,7 @@ header{
 /* main */
 main{
     width: 96%;
+    min-height: 80%;
     max-width: 900px;
     margin: 1% auto;
     background-color: whitesmoke;

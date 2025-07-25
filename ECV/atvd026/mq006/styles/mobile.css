@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+/* body*/
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-color: aquamarine;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    width: 90%;
+    height: 70%;
+    background-color: blueviolet;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* /body*/
+
+/* header*/
+header{
+    height: 25%;
+    overflow: hidden;
+}
+header > h1{
+    padding-top: 3%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+header > p{
+    padding-top: 4.5%;
+    text-align: center;
+}
+/* /header*/
+
+/* main*/
+main{
+    height: 55%;
+    overflow: hidden;
+    background-color: red;
+}
+main > h1{
+    padding: 7% 0%;
+    font-size: 1.3em;
+    text-align: center;
+}
+main > form{text-align: center;}
+main > form > .linha{padding: 4% 0%;}
+main > form > .botao{
+    width: 80%;
+    background-color: aquamarine;
+    border: none;
+}
+main > div{
+    display: flex;}
+#reset{
+    width: 60%;
+    margin-bottom: 4%;
+}
+#psalvar, #probo{
+    font-size: 0.7em;
+}
+/* /main*/
+
+/* footer*/
+footer{
+    height: 20%;
+    overflow: hidden;
+}
+/* /footer*/
