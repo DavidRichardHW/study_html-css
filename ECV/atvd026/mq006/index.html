@@ -6,7 +6,7 @@
     <title>CarPox</title>
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="styles/mobile.css">
-    <link rel="stylesheet" href="styles/others.css">
+    <link rel="stylesheet" href="styles/others.css" media="screen and ()">
 </head>
 <body>
     <header>
@@ -15,22 +15,25 @@
     </header>
     <main>
         <h1>Fazer Login</h1>
-        <form action="data" method="post">
-            <p id="pemail" class="linha"><label for="iemail">Email <input type="email" id="iemail" name="email" placeholder="seuemail.aqui@gmail.com"></label></p>
-            <p id="psenha" class="linha"><label for="isenha">Senha <input type="password" id="isenha" name="senha" placeholder="**********"></label></p>
+        <form action="data/" method="post">
+            <p id="pemail" class="linha"><label for="iemail">Email <input type="email" id="iemail" name="email" placeholder="seuemail.aqui@gmail.com" required></label></p>
+            <p id="psenha" class="linha"><label for="isenha">Senha <input type="password" id="isenha" name="senha" placeholder="**********" minlength="8" required></label></p>
             <input id="enviar" class="botao" type="submit" value="Entrar">
             <input  id="reset" class="botao" type="reset" value="Limpar">
-            <p id="psalvar" class="linha"><label for="isalvar">Salvar dados <div>
+            <div id="checkbox">
+                <p id="psalvar" class="linha"><label for="isalvar">Salvar dados 
                 <input type="checkbox" id="isalvar" name="salvar"></label></p>
-                <p id="probo" class="linha"><label for="irobo">Não sou um robô <input type="checkbox" id="irobo" name="naorobo"></label></p>
+                <p id="probo" class="linha"><label for="irobo">Não sou um robô <input type="checkbox" id="irobo" name="naorobo" required></label></p>
             </div>
         </form>
     </main>
     <footer>
-        <p>Logue Também</p>
-        <a href="https://www.google.com/webhp?hl=pt-BR&sa=X&ved=0ahUKEwiDzOGsoNiOAxUcDrkGHR4CJEQQPAgI" target="_blank" rel="external"><img src="images/google.svg" alt="Login com Goole"></a>
-        <a href="https://www.apple.com/br" target="_blank" rel="external"><img src="images/apple.svg" alt="Login com Apple"></a>
-        <p>Site Criado por David 'HAWIZE' Richard</p>
+        <p id="p1">Logue Também</p>
+        <div id="logos">
+            <a  href="https://www.google.com/webhp?hl=pt-BR&sa=X&ved=0ahUKEwiDzOGsoNiOAxUcDrkGHR4CJEQQPAgI" target="_blank" rel="external"><img id="lgoole" class="llogo" src="images/google.svg" alt="Login com Goole"></a>
+            <a  href="https://www.apple.com/br" target="_blank" rel="external"><img id="lapple" class="llogo" src="images/apple.svg" alt="Login com Apple"></a>
+        </div>
+        <p id="p2">Site Criado por David 'HAWIZE' Richard</p>
     </footer>
 </body>
 </html>
